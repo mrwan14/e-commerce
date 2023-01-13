@@ -1,0 +1,112 @@
+.container-login
+{
+    margin-bottom: 200px;
+    margin-top: 20px;
+    position: relative;
+}
+.login
+{
+    width: 700px;
+    height: 400px;
+    border: 1px gray solid;
+}
+
+
+.or-layer
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+.or-layer p::after
+{
+    content: '';
+    height: 60px;
+    width: 1px;
+    background-color: gray;
+    opacity: 0.3;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: -10px;
+}
+.or-layer p::before
+{
+    content: '';
+    height: 60px;
+    width: 1px;
+    background-color: gray;
+    opacity: 0.3;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 8px;
+
+}
+.or-layer p
+{
+    font-size: 12px;
+    font-weight: 600;
+}
+.social
+{
+    padding: 20px;
+}
+.social .btn
+{
+    margin: 10px;
+    border-radius: 0;
+    border: gray 1px solid;
+    width: 90%;
+    height: 50px;
+}
+.social .main-button
+{
+    margin-top: 50px;
+}
+.links .btn
+{
+
+    border-radius: 0;
+    padding: 10px;
+}
+.links a
+{
+    text-emphasis: none;
+    margin-left:-25px ;
+    font-size: 12px;
+    text-decoration-color: black;
+    text-decoration:underline ;
+    background-color: transparent;
+    color: #101010;
+}
+.login-footer
+{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+.login-footer p
+{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.login-footer button
+{
+    border-radius: 0;
+    border: rgb(204, 204, 204) solid 0.5px;
+    background-color: #f0f0f0;
+    font-size: 13px;
+}
+.login-footer .forsignup
+{
+    font-size: 12px;
+    text-decoration:none ;
+    color: white;
+    margin: 1px;
+}

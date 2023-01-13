@@ -1,0 +1,27 @@
+div
+{
+    position: relative;
+}
+.footer
+{
+    background-color: #f0f0f0;
+    height: 180px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    align-items: center;
+}
+.footer a
+{
+    text-emphasis: none;
+    text-decoration-color: black;
+    text-decoration:underline ;
+    background-color: transparent;
+    color: #101010;
+
+}
+.footer p
+{
+    font-size: 10px;
+    font-weight: 700;
+}

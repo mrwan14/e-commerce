@@ -1,0 +1,56 @@
+.cart-body
+{
+    width: 100%;
+    position: absolute;
+    min-height: 100vh;
+    height: auto;
+    scroll-snap-type: mandatory;}
+.cart-body .header span
+{
+    font-size: 12px;
+}
+.footer::before
+{
+    content: '';
+    height: 0.5px;
+    width: 90%;
+    position: absolute;
+    background-color: gray;
+    opacity: 25%;
+    top: 40px;
+    left: 30px;
+}
+
+
+.product-img
+{
+    width: 100%;
+    height: 100px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60%;
+}
+
+.product-desc-price h3
+{
+    margin: 30px;    
+    font-size: 25px;
+
+}
+.product-desc-price span
+{
+font-size: 22px;
+font-weight: 700;
+font-family: cursive;
+}
+.product-desc-price h4
+{
+
+    position: absolute;
+    right: 10px;
+    top: 27px;
+
+
+}

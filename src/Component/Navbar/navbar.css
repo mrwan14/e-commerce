@@ -1,0 +1,73 @@
+
+.navbar
+{
+    height: 130px;
+    background-color: #f9f9f9;
+
+}
+.navbar-brand
+{
+    width: 150px;
+    margin: 20px;
+}
+.form-sub {
+    padding: 10px;
+}
+.form-sub .btn 
+{
+    height: 40px;
+    width: 70px;
+    border-radius: 0;
+    font-size: small;
+}
+.form-sub .form-control
+{
+    width: 300px;
+    height: 40px;
+    border-radius: 0;
+}
+.nav-buttons
+{
+    padding: 10px;
+}
+.btn2
+{
+    background-color: #f2f2f2;
+    
+}
+.navbar-nav
+{
+   margin-left: 8px;
+}
+
+.nav-link
+{
+   font-size: 13px;
+   margin: 8px;
+   opacity: 0.8;
+   
+}
+ 
+.nav-buttons .forlogin
+{
+    text-emphasis: none;
+    margin-left:-25px ;
+    font-size: 12px;
+    text-decoration-color: black;
+    text-decoration:none ;
+    background-color: transparent;
+    color: #101010;
+    margin: 1px;
+}
+.nav-buttons .forsignup
+{
+    text-emphasis: none;
+    margin-left:-25px ;
+    font-size: 12px;
+    text-decoration-color: black;
+    text-decoration:none ;
+    background-color: transparent;
+    color:white;
+    margin: 1px;
+
+}

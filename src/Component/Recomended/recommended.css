@@ -1,0 +1,17 @@
+.recommended-banner-img
+{
+    background-image: url('../../images/recommended-banner.PNG');
+    background-position: center center;
+    background-size: cover;
+}
+.recommended-banner
+{
+    height: 400px;
+}
+.recommended-banner-desc
+{
+    align-items: center;
+    display: flex;
+    padding: 50px;
+    background-color: #f9f8f8;
+}

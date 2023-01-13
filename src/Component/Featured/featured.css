@@ -1,0 +1,17 @@
+.featured-banner-img
+{
+    background-image: url('../../images/featured-banner.PNG');
+    background-position: center center;
+    background-size: cover;
+}
+.featured-banner
+{
+    height: 400px;
+}
+.featured-banner-desc
+{
+    align-items: center;
+    display: flex;
+    padding: 50px;
+    background-color: #f9f8f8;
+}
